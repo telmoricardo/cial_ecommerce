@@ -1,0 +1,39 @@
+.jcarousel-wrapper { margin: 0; position: relative;}
+/** Carousel */
+.jcarousel {position: relative; overflow: hidden; width: 100%;}
+.jcarousel ul { width: 10000em; position: relative;list-style: none; margin: 0; padding: 0;}
+.jcarousel li {width: 200px; float: left; padding: 8px;}
+.jcarousel .item{ position: relative;}
+.jcarousel .item .action{width: 80%; margin: 0 10%; position: absolute; top: 20px; opacity: 0; float: left; transition: 0.5s;}
+.jcarousel .item .action .action_item{width: calc(25% - 0px); color:#fff; margin: 0 0px; background-color: #333 !important; float: left; padding: 5px 12px; border: 1px solid #fff;}
+.jcarousel .item .action .action_item:hover{background-color: #000 !important;}
+.jcarousel .item:hover .action{cursor: pointer; top: 180px; opacity: 1;}
+.jcarousel img {display: block; max-width: 100%; height: auto !important; margin-bottom: 10px;}
+.jcarousel a{font-size: 1em; color: #333;}
+.jcarousel h1{font-size: 1.2em; margin-bottom: 10px;}
+.jcarousel .star{margin-bottom: 10px;}
+/* Carousel Controls */
+.navegation{float: left; background-color: #00c2cc; position: absolute; top: 0; z-index: 9999;}
+.jcarousel-control-prev,
+.jcarousel-control-next { position: absolute; top: 50%; margin-top: -15px;width: 40px; height: 40px; padding: 2px; text-align: center; background: #4E443C;   color: #fff; text-decoration: none;  text-shadow: 0 0 1px #000; font-size: 2em; -webkit-border-radius: 30px;  -moz-border-radius: 30px; border-radius: 30px; -webkit-box-shadow: 0 0 4px #F0EFE7;  -moz-box-shadow: 0 0 4px #F0EFE7; box-shadow: 0 0 4px #F0EFE7; }
+.jcarousel-control-prev { left: 15px;}
+.jcarousel-control-next { right: 15px;}
+
+/*carrousel blog*/
+.jcarousel-blog {margin: 0; position: relative;   }
+/** Carousel */
+.blogcarousel {position: relative; overflow: hidden; width: 100%; }
+.blogcarousel ul { width: 10000em; position: relative; list-style: none; margin: 0; padding: 0;}
+.blogcarousel li {width: 400px;float: left; padding: 8px;}
+.blogcarousel img { display: block; max-width: 100%; height: auto !important; margin-bottom: 10px;}
+/* Carousel Controls */
+.navegation{float: left; background-color: #00c2cc; position: absolute; top: 0; z-index: 9999;}
+.jcarousel-control-prev,
+.jcarousel-control-next { position: absolute;  top: 50%; margin-top: -15px;  width: 40px; height: 40px;  padding: 2px;  text-align: center; background: #4E443C; color: #fff; text-decoration: none;    text-shadow: 0 0 1px #000;  font-size: 2em; -webkit-border-radius: 30px;-moz-border-radius: 30px;  border-radius: 30px; -webkit-box-shadow: 0 0 4px #F0EFE7; -moz-box-shadow: 0 0 4px #F0EFE7; box-shadow: 0 0 4px #F0EFE7;}
+
+@media(max-width: 767px){
+    .ctrl-prev, .ctrl-next { top: 40%;}
+    .jcarousel-control-prev, .jcarousel-control-next { top: 40%;}
+}
+
+

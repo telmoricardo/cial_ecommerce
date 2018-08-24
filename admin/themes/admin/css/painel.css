@@ -1,0 +1,204 @@
+/*admin-left*/
+.admin-left{width: 15%; float: left; background-color: #333;  height: 100%; position: fixed;}
+.admin-left-thumb{width: 100%; float: left; text-align: center;}
+.admin-left-thumb .admin-thumb{width: 40%; float: left; margin: 25px 30% 0; position: relative;}
+.admin-left-thumb .admin-thumb img{width: 100%; border-radius: 50%; background-color: #fff; margin: 15px 0;}
+.admin-left-thumb h1{width: 100%; font-size: 1.2em; color: #fff; float: left; margin-bottom: 25px; }
+
+/*admin menu*/
+.admin-left-menu{width: 100%; background-color: #2b3c4a; float: left;}
+.admin-left-menu ul li{display: block; height: 50px; background-color: #2b3c4a; border-bottom: 1px solid #fff;}
+.admin-left-menu ul li a{height: 50px; color: #fff; height: 50px; float: left; width: 100%; padding: 15px 8px; font-size: 0.9em; text-transform: uppercase;}
+.admin-left-menu ul li .submenu{
+  display: none;
+  transition: all 5s;
+}
+.admin-left-menu ul li .submenu li a{background-color: #00a190; border-bottom: 1px solid #fff;}
+.admin-left-menu ul li .submenu li a:hover{background-color: #037165; }
+.admin-left-menu ul li:hover .submenu{display: block;}
+.admin-left-menu ul li a:hover{background-color: #597a94;}
+
+
+/*ADMIN-right*/
+.admin-right{width: 85%; float: left; margin-left: 15%; }
+.linha{border-bottom: 1px  solid #eaeaea;}
+
+/*BEM-VINDO*/
+.admin-right-header{float: left; width: 100%; height: 65px; color: #333; background: #ededed;}
+.admin-header-left{width: 85%; float: left; height: 65px; padding: 15px; margin: 0; padding: 0; }
+.admin-header-left p{float: left; margin-top: 25px; margin-left: 15px;}
+.admin-header-right{width: 15%; height: 65px; float: left; padding: 15px; margin: 0; padding: 0; }
+.admin-header-right a{background-color: red; margin-right: 15px; margin-top: 15px; padding: 8px; float: right; width: 90px; text-transform: uppercase; color: #fff; } 
+.admin-header-right a:hover{background-color: #00a190; } 
+.admin-header-right a .exit{height: 25px; float: left; margin-right: 5px;} 
+
+/*NAVEGAÇÃO CONTROLLER*/
+
+.admin-header-footer{margin-left: 0; float: left; width: 100%; height: 150px;}
+.painel{float: left; width: 95%; margin: 0 2.5%; margin-top: 25px;}
+.admin-header-footer .painel img{float: left; width: 50px; margin-right: 15px;}
+.admin-header-footer .painel h1{font-size: 3em; display: block;}
+.admin-header-footer .painel p{font-size: 1.1em; color: #333;}
+.admin-header-footer .painel a{font-size: 1.1em; color: #333; line-height: 10px; }
+.admin-header-footer .painel a:hover{color: #597a94;}
+
+
+.mobile{width: 60px; height: 60px; display: none; float: left; float: left; cursor:pointer; margin-left: -20px; background: #00a190 url(../images/menu.png) no-repeat center center; background-size: 80%; }
+
+.conteudo-row{float: left; width: 100%; min-height: 600px;}
+.admin-conteudo{float: left; width: 95%; margin: 0 2.5%; }
+
+/*ONLINE VISITAS VENDAS*/
+.admin-row{margin: 0 10px; width: calc(25% - 20px);  position: relative; float: left; text-align: center; color: #fff;}
+.admin-row .row-title{width: 100%; background-color: black; padding: 15px; float: left;}
+.admin-row .row-title i{float: left; height: 30px; }
+.admin-row .row-title h1{font-size: 1.4em; float: left; margin-top: 2px;}
+.admin-row .row-conteudo{width: 100%; background-color: #ccc; padding: 15px; float: left; text-align: center; color: #333;}
+.admin-row .row-conteudo i{float: left; height: 50px; width: 25%; margin-left: 50px;}
+.admin-row .row-conteudo h2{font-size: 1.4em; float: left; margin-top: 2px;}
+.admin-row .row-conteudo p{font-size: 1em; }
+.admin-row .row-conteudo .btn-row{display: block; width: 90%; margin: 0 5%; margin-top: 15px; background-color: #444444; padding: 15px; color: #fff; float: left;}
+.row-view{margin: 0 10px; width: calc(33.33333333333333% - 20px);  position: relative; float: left; }
+
+/*ULTIMOS PEDIDOS / COMENTARIOS*/
+.row-footer{margin: 0 10px; width: calc(50% - 20px);  position: relative; float: left; color: #333;}
+.row-footer .row-title{width: 100%; background-color: black; padding: 15px; float: left;}
+.row-footer .row-title i{float: left; height: 30px; }
+.row-footer .row-title h1{font-size: 1.4em; float: left; margin-top: 2px; }
+.tabela{color: #333; width: 100%; overflow-y: hidden;}
+.tabela thead{background-color: #ccc;}
+
+.row-footer-com{width: 100%; float: left; border-bottom: 1px solid #ccc; }
+.row-footer-com .footer-thumb{width: 11%; height: 11%; border-radius: 50%; background-color: #fff; margin: 10px 15px; float: left; margin-bottom: 7px;}
+.row-footer-com h2{float: left; margin-top: 10px; font-size: 1em; width: 80%;}
+.row-footer-com p{float: left; margin-top: 10px; width: 80%; }
+.row-comment{float: left; width: 82%; margin-top: -10px; margin-left: 15%;}
+.row-comment .star{width: 25px; margin-right: 2px; padding: 4px;}
+
+/*footer*/
+.footer{float: left; width: 100%; padding: 20px; text-align: center;}
+
+
+/*POST*/
+.post-conteudo{float: left; background-color: #ccc; width: 100%; padding: 15px; min-height: 600px !important;}
+.cad-form{float: left; background-color: #f3f3f3; margin-top: 30px !important; margin-left: 15px; margin-bottom: 4rem !important; width: 95%; margin: 0 2.5%;}
+.cad-form h1{width: 100%; padding: 15px; border-bottom: 1px solid #ccc;}
+.cad-form form{padding: 15px;}
+
+/*LISTAGEM POSTS*/
+.tabela{color: #333; width: 100%; overflow-y: visible;}
+.btn-delete{width: 30px; height: 30px; float: left; background: url(boot/icons/delete.png) no-repeat; background-size: 80%;}
+.btn-update{width: 30px; height: 30px; float: left; background: url(boot/icons/update.png) no-repeat; background-size: 80%;}
+
+.paginator{margin: 15px 0 ;}
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+/*LISTA CATEGORIAS*/
+.category-header{width: 100%; float: left;}
+.category-header h1{font-size: 1.4em; margin: 10px 0;}
+/*.cat_list h1{margin-bottom: 10px; margin-top: 10px;}
+.cat_list section section{padding: 20px 20px 0; margin-bottom: 30px; background: #fff; float: left; width: 100%; border-bottom: 10px solid #ccc}
+.cat_list section:last-child{margin: 0;}
+.cat_list section section header{display: block; float: left; width: 100%;}
+.cat_list section section header h1{font-size: 20px; margin: 0 !important; margin-bottom: 15px; float: left; font-weight: bold; text-transform: uppercase; color: #333;}
+.cat_list section section header .tagline{font-size: 16px; margin: 15px 0; color: #666;}
+.cat_list section section header .info{padding: 10px; margin-bottom: 20px; background: #333; display: block; width: 100%;}
+
+.cat_list section section{}
+.cat_list section section h2{font-size: 18px; margin: 15px 0 !important; font-weight: 600; color: #f4f4f4;}
+.cat_list section section article{float: left; width: calc(33.33% - 2%); background: #eee; margin: 0 1%;}
+.cat_list section section .right{margin-right: 0;}
+.cat_list section section article h1{font-size: 14px}
+.cat_list section section article .info{width: 256px;}
+.cat_list section section article .info li:first-child{margin-right: 21px;}
+
+POSTS
+.post_actions{float: left; width: calc(33.33% - 2%); margin: 0 -1%; font-size: 12px;}
+.post_actions li{float: left; margin-right: 6px;}
+.post_actions li:first-child{margin-right: 32px; margin-top: 4px;}
+.post_actions li:last-child{margin: 0;}
+.post_actions li a{background: #ccc; text-transform: uppercase; font-size: 10px; color: #333; width: 25px; height: 25px; float: left; font-size: 0;}
+.post_actions li a:hover{background-color: #09f; color: #fff;}
+.post_actions li .act_view{background: #eee url(boot/icons/act_view.png) center center no-repeat;}
+.post_actions li .act_edit{background: #eee url(boot/icons/act_edit.png) center center no-repeat;}
+.post_actions li .act_ative{background: #eee url(boot/icons/act_ative.png) center center no-repeat;}
+.post_actions li .act_inative{background: #eee url(boot/icons/act_inative.png) center center no-repeat;}
+.post_actions li .act_delete{background: #eee url(boot/icons/act_delete.png) center center no-repeat;}*/
+
+
+@media only screen and (min-width: 769px) and (max-width: 1279px){ 
+    .admin-left{width: 28%; }
+    .admin-right{width: 71%; float: left; height: 100%; position: relative; left: 28%;}
+
+    /*BEM-VINDO*/
+    .admin-right-header{left: 28%; float: left; width: 100%; height: 80px; color: #333; position: fixed; background: #ededed; z-index: 99;}
+    .admin-header-left{width: 60%; float: left; padding: 15px; margin: 0; padding: 0;}
+
+    /*NAVEGAÇÃO CONTROLLER*/
+    .admin-header-footer h1{font-size: 2.3em; display: block;}
+    /*ONLINE VISITAS VENDAS*/
+    .admin-row{margin: 0 10px; width: calc(50% - 20px);  position: relative; background-color: #ccc; margin-bottom: 10px; float: left; color: #fff; min-height: 230px;}
+    .row-footer{margin: 0 10px; width: calc(100% - 20px);  position: relative; float: left; color: #333;}
+
+}
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    .mobile{display: block;}
+    .admin-left{width: 35%; z-index: 9999; margin-left: -100%; position: absolute;}
+    .admin-right{width: 99.1%; float: left; height: 100%; position: relative; left: 0; overflow-x: hidden;}
+
+    /*BEM-VINDO*/
+    .admin-right-header{left: 0; float: left; width: 100%; height: 80px; color: #333; position: fixed; background: #ededed; z-index: 99;}
+    .admin-header-left{width: 80%; float: left; padding: 15px; margin: 0; padding: 0;}
+    
+    /*NAVEGAÇÃO CONTROLLER*/
+    .admin-header-footer h1{font-size: 1.4em; display: block; margin-left: 80px}
+    .admin-header-footer p{font-size: 1em; display: block; margin-left: 80px}
+    /*ONLINE VISITAS VENDAS*/
+    .admin-row{margin: 0 10px; width: calc(100% - 20px);  position: relative; background-color: #ccc; margin-bottom: 10px; float: left; color: #fff; min-height: 230px;}
+    .row-conteudo .row-view{margin: 0 10px; width: calc(33.33333333333333% - 20px);  position: relative; float: left; color: #333;}
+    .row-conteudo .row-view h2{width: 100%; float: left;}
+    .row-footer{margin: 0 10px; width: calc(100% - 20px);  position: relative; float: left; color: #333;}
+}
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .mobile{display: block;}
+    .admin-left{width: 35%; z-index: 9999; margin-left: -100%; position: absolute;}
+    .admin-right{width: 100%; float: left; height: 100%; position: relative; left: 0; overflow-x: hidden;}
+
+    /*BEM-VINDO*/
+    .admin-right-header{left: 0; float: left; width: 100%; height: 80px; color: #333; position: fixed; background: #ededed; z-index: 99;}
+    .admin-header-left{width: 60%; float: left; padding: 15px; margin: 0; padding: 0;}
+    
+    /*NAVEGAÇÃO CONTROLLER*/
+    .admin-header-footer h1{font-size: 1.2em; display: block; margin-left: -10px; float: left; width: 100%;}
+    .admin-header-footer img{display: none;}
+    .admin-header-footer p{width: 100%; float: left; margin-bottom: 15px;}
+    /*ONLINE VISITAS VENDAS*/
+    .admin-row{margin: 0 10px; width: calc(100% - 20px);  position: relative; background-color: #ccc; margin-bottom: 10px; float: left; color: #fff; min-height: 230px;}
+    .row-conteudo .row-view{margin: 0 10px; width: calc(33.33333333333333% - 20px);  position: relative; float: left; color: #333;}
+    .row-conteudo .row-view h2{width: 100%; float: left;}
+    .row-footer{margin: 0 10px; width: calc(100% - 20px);  position: relative; float: left; color: #333;}
+    .row-footer .row-title h1{font-size: 1em;}
+}
